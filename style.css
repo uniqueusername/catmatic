@@ -98,6 +98,7 @@ form {
 
 input {
   height: 50px;
+  text-indent: 10px;
 }
 
 input, textarea {
@@ -111,7 +112,6 @@ input, textarea {
 
   font-family: 'Josefin Sans';
   font-size: 1.5vw;
-  text-indent: 10px;
 
   transition: background-color 0.5s;
   -webkit-transition: background-color 0.5s;
@@ -122,9 +122,10 @@ input:focus, textarea:focus {
 }
 
 textarea {
+  box-sizing: border-box;
+  padding: 10px;
   height: 12vw;
   resize: vertical;
-  padding-top: 16px;
 }
 
 #submitButton:hover {
