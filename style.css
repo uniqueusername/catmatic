@@ -40,6 +40,7 @@ h1 {
 }
 
 header {
+  margin-top: -60px;
   text-align: center;
 }
 
@@ -76,14 +77,59 @@ nav {
   justify-content: center;
 
   transition: background-color 0.4s, transform 0.25s;
+  -webkit-transition: background-color 0.4s, transform 0.25s;
 }
 
 .navButton:hover {
   transform: scale(1.2);
 }
 
+.navButton:active {
+  transform: scale(1.1);
+}
+
 .navButton img {
   width: 60%;
+}
+
+form {
+  margin-top: 0.75vw;
+}
+
+input {
+  height: 50px;
+}
+
+input, textarea {
+  width: 40vw;
+  height: 3vw;
+  margin: 0.75vw;
+
+  border: none;
+  background-color: #feefff;
+  color: #BD81B7;
+
+  font-family: 'Josefin Sans';
+  font-size: 1.5vw;
+  text-indent: 10px;
+
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+}
+
+input:focus, textarea:focus {
+  background-color: #feebff;
+}
+
+textarea {
+  height: 12vw;
+  resize: vertical;
+  padding-top: 16px;
+}
+
+#submitButton:hover {
+  background-color: #feebff;
+  cursor: pointer;
 }
 
 @media (max-width: 480px) {
@@ -101,18 +147,22 @@ nav {
   h2 {
     font-size: 4vw;
   }
+  #icon {
+    order: 2;
+    flex-basis: initial;
+  }
   nav {
     order: 3;
     margin-top: 30px;
+  }
+  form {
+    order: 4;
+    margin-top: 3vw;
   }
   .navButton {
     width: 26px;
     height: 26px;
     border-width: 2px;
     margin: 8px;
-  }
-  #icon {
-    order: 2;
-    flex-basis: initial;
   }
 }
