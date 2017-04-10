@@ -1,0 +1,20 @@
+<svg width="32" height="44" viewBox="0 0 32 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Vector</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6992 -10528)" figma:type="canvas">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-6992 10528)" fill="#EA91BD"/>
+<use xlink:href="#path1_fill" transform="translate(-6992 10528)" fill="#EA91BD"/>
+<use xlink:href="#path2_fill" transform="translate(-6992 10528)" fill="#EA91BD"/>
+<use xlink:href="#path3_fill" transform="translate(-6992 10528)" fill="#EA91BD"/>
+<use xlink:href="#path4_fill" transform="translate(-6992 10528)" fill="#EA91BD"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 2.07834 28.9516C 0.930384 28.9516 0 28.0224 0 26.8766L 0 16.9559C 0 15.8098 0.930384 14.8809 2.07834 14.8809C 3.2263 14.8809 4.15668 15.8098 4.15668 16.9559L 4.15668 26.8766C 4.15668 28.0224 3.2263 28.9516 2.07834 28.9516Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 8.87131 38.0625C 7.72335 38.0625 6.79297 37.1333 6.79297 35.9874L 6.79297 7.84559C 6.79297 6.69943 7.72335 5.77051 8.87131 5.77051C 10.0193 5.77051 10.9496 6.69943 10.9496 7.84559L 10.9496 35.9874C 10.9496 37.1333 10.0193 38.0625 8.87131 38.0625Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 22.4572 43.8323C 21.3093 43.8323 20.3789 42.9031 20.3789 41.7572L 20.3789 2.07538C 20.3789 0.929231 21.3093 0 22.4572 0C 23.6052 0 24.5356 0.929231 24.5356 2.07538L 24.5356 41.7572C 24.5356 42.9031 23.6052 43.8323 22.4572 43.8323Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 29.2502 37.2527C 28.1023 37.2527 27.1719 36.3235 27.1719 35.1776L 27.1719 8.75672C 27.1719 7.61056 28.1023 6.68164 29.2502 6.68164C 30.3982 6.68164 31.3286 7.61056 31.3286 8.75672L 31.3286 35.1776C 31.3286 36.3235 30.3982 37.2527 29.2502 37.2527Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 15.6643 32.7978C 14.5163 32.7978 13.5859 31.8686 13.5859 30.7228L 13.5859 13.2098C 13.5859 12.064 14.5163 11.1348 15.6643 11.1348C 16.8122 11.1348 17.7426 12.064 17.7426 13.2098L 17.7426 30.7228C 17.7426 31.8686 16.8122 32.7978 15.6643 32.7978Z"/>
+</defs>
+</svg>

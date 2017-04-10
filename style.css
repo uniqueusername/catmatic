@@ -18,8 +18,15 @@ body {
 }
 
 #icon {
-  width: 40%;
+  margin: auto;
+  width: 100%;
+}
+
+a {
+  display: flex;
   flex-basis: 100%;
+  width: 40%;
+  align-items: center;
 }
 
 /*#icon {
@@ -133,6 +140,12 @@ textarea {
   cursor: pointer;
 }
 
+p {
+  font-family: 'Josefin Sans';
+  font-size: 1.4vw;
+  color: #EA91BD;
+}
+
 @media (max-width: 480px) {
   #main {
     flex-direction: column;
@@ -148,16 +161,20 @@ textarea {
   h2 {
     font-size: 4vw;
   }
-  #icon {
+  a {
     order: 2;
     flex-basis: initial;
   }
-  nav {
+  #icon {
     order: 3;
+    flex-basis: initial;
+  }
+  nav {
+    order: 4;
     margin-top: 30px;
   }
   form {
-    order: 4;
+    order: 5;
     margin-top: 3vw;
   }
   .navButton {
