@@ -176,16 +176,16 @@ iframe {
     order: 3;
     flex-basis: initial;
   }
+  p {
+    order: 6;
+    margin-top: 3vw;
+  }
   nav {
     order: 4;
     margin-top: 30px;
   }
   form {
     order: 5;
-    margin-top: 3vw;
-  }
-  p {
-    order: 6;
     margin-top: 3vw;
   }
   iframe {
