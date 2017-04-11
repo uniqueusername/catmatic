@@ -89,6 +89,7 @@ nav {
 
 .navButton:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
 
 .navButton:active {
@@ -144,6 +145,12 @@ p {
   font-family: 'Josefin Sans';
   font-size: 1.4vw;
   color: #EA91BD;
+  text-align: center;
+}
+
+iframe {
+  width: 40vw;
+  height: 20vw;
 }
 
 @media (max-width: 480px) {
@@ -176,6 +183,13 @@ p {
   form {
     order: 5;
     margin-top: 3vw;
+  }
+  p {
+    order: 6;
+    margin-top: 3vw;
+  }
+  iframe {
+    order: 7;
   }
   .navButton {
     width: 26px;

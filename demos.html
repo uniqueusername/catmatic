@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>catmatic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="demoswitch.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <a href="index.html"><img src="assets/images/VECTOR.svg" id="icon"/></a>
+      <header>
+        <h1>catmatic</h1>
+        <h2>Demos</h1>
+      </header>
+      <p style="word-wrap: break-word; width: 50vw">Hi! My name is catmatic. I produce electronic music for soundtracks and for myself. As a musician, I aim to create music that both reflects what I feel, and helps the listener feel the same way. Some of my biggest inspirations are Porter Robinson and Madeon, both amazing artists whom I aspire to live up to some day. I have prior experience working on video game soundtracks, having worked on the Automaton project on GameJolt and Royal Rumble, a choose-your-own-adventure game developed for the CodeDay hackathon. I hope you enjoy my music and thanks for listening!</p>
+      <nav id="button-panel">
+        <div class="navButton"><img class="unhovered" onclick="setMenu()" src="assets/images/menu.svg" /></div>
+        <div class="navButton"><img class="unhovered" onclick="setActive()" src="assets/images/emergency-exit.svg" /></div>
+      </nav>
+      <iframe id="scplaylist" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/314300565%3Fsecret_token%3Ds-CnfVM&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    </div>
+  </body>
+</html>
