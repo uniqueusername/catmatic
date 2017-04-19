@@ -146,6 +146,7 @@ p {
   font-size: 1.4vw;
   color: #EA91BD;
   text-align: center;
+  width: 50vw;
 }
 
 iframe {
@@ -179,6 +180,8 @@ iframe {
   p {
     order: 6;
     margin-top: 3vw;
+    font-size: 4vw;
+    width: 100vw;
   }
   nav {
     order: 4;
@@ -186,7 +189,18 @@ iframe {
   }
   form {
     order: 5;
-    margin-top: 3vw;
+    margin-top: 6vw;
+    width: 100%;
+  }
+  input {
+    width: 100%;
+    height: 4vh;
+    font-size: 2vh;
+  }
+  textarea {
+    width: 100%;
+    height: 12vh;
+    font-size: 2vh;
   }
   iframe {
     order: 7;
