@@ -16,6 +16,10 @@ currentImage = 0;
 function initImages() {
   document.getElementById("main-image").src = images[filename][currentImage];
   document.getElementById("background-image").style.background = `#000000 url("${images[filename][currentImage]}")`
+
+  if (window.innerWidth < window.innerHeight) {
+    alert("Hey, it looks like you're running on mobile (or just a weird vertical monitor)! This website is designed to run in landscape mode so it's highly recommended you turn your phone (or monitor).");
+  }
 }
 
 function nextImage() {
