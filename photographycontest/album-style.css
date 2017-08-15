@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#nav-flex {
+  height: 100%;
+
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#background-image {
+  position:fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: blur(10px);
+  margin: -20px -20px -20px -20px;
+
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+#main-image {
+  position: fixed;
+  bottom: 5%;
+  height: 90vh;
+  z-index: 2;
+
+  box-shadow: 0px 0px 25px #111111;
+}
+
+.nav-button {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+
+  height: 100vh;
+  width: 7.5%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: 3;
+  -webkit-transition: background-color 0.25s, width 0.5s;
+  transition: background-color 0.25s, width 0.5s;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+  width: 8%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-button#left {
+  left: 0;
+}
+
+.nav-button#right {
+  right: 0;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #fafafa;
+  z-index: 3
+}
