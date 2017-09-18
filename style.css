@@ -151,7 +151,7 @@ p {
 
 iframe {
   width: 40vw;
-  height: 20vw;
+  height: 15vw;
 }
 
 @media (max-width: 480px) {
