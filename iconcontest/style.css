@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 
   background-color: #121212;
 }
@@ -23,9 +23,8 @@ body {
 }
 
 #wrapper {
-  position: fixed;
-  left: 6vw;
-  top: 15vh;
+  position: relative;
+  left: -4.5vw;
 
   display: grid;
   width: 80%;
@@ -35,8 +34,6 @@ body {
 }
 
 #icon-wrapper {
-  padding: 500px;
-
   text-align: center;
   vertical-align: center;
 }
@@ -59,8 +56,8 @@ body {
 }
 
 #heading {
-  position: fixed;
-  top: 2%;
+  position: relative;
+  margin-top: 50px;
 
   font-size: 2em;
   font-family: 'Roboto Slab';
@@ -68,11 +65,12 @@ body {
 }
 
 #subheading {
-  position: fixed;
-  bottom: 6%;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 20px;
 
-  width: 40vw;
-  height: 30vh;
+  width: 80vw;
+  height: 90vh;
   border: none;
 
   font-size: 1.5em;
@@ -81,7 +79,7 @@ body {
 }
 
 #mobile-subheading {
-  display: hidden;
+  display: none;
 }
 
 .lum-img {
