@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  height: 100%;
   margin: 0;
   overflow: hidden;
 
@@ -11,8 +10,6 @@ body {
 }
 
 #nav-flex {
-  height: 100%;
-
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -83,6 +80,10 @@ body {
   color: white;
 }
 
+#mobile-subheading {
+  display: hidden;
+}
+
 .lum-img {
   width: 50%;
 }
@@ -99,12 +100,15 @@ body {
   }
 
   #heading {
+    position: relative;
+    margin-top: 25px;
     font-size: 1.5em;
   }
 
   #wrapper {
-    position: fixed;
-    left: 15%;
+    position: relative;
+    left: 5%;
+    top: 10%;
 
     grid-template-columns: 1fr 1fr;
   }
@@ -119,5 +123,13 @@ body {
 
   #subheading {
     display: none;
+  }
+
+  #mobile-subheading {
+    display: block;
+    margin: 25px;
+
+    font-size: 1.5em;
+    font-family: 'Roboto Slab';
   }
 }
